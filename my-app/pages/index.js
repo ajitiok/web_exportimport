@@ -15,26 +15,24 @@ export default function Landing() {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage:
-                "url('/img/landing-page.jpg')",
+              backgroundImage: "url('/img/landing-page.jpg')",
             }}
           >
-            <span
+            {/* <span
               id="blackOverlay"
               className="w-full h-full absolute opacity-75 bg-black"
-            ></span>
+            ></span> */}
           </div>
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Indonesian Premium Wood Charcoal Briquettes
+                    INDONESIA BEST SUPPLIER OF COCONUT PRODUCT
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    We are proud producers of 100% natural food-grade charcoal
-                    briquettes, with a focus on quality, impeccable service and
-                    speed.
+                    We are proud producers of processed, with a focus on
+                    quality, impeccable service and speed
                   </p>
                 </div>
               </div>
@@ -122,9 +120,6 @@ export default function Landing() {
 
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                  <i className="fas fa-user-friends text-xl"></i>
-                </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
                   Working with us is a pleasure
                 </h3>
@@ -140,11 +135,6 @@ export default function Landing() {
                   production of processed coconut products in Indonesia for over
                   20 years.
                 </p>
-                <Link href="/" legacyBehavior>
-                  <a href="#pablo" className="font-bold text-blueGray-700 mt-8">
-                    Kausa Coco Indonesia
-                  </a>
-                </Link>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -170,12 +160,12 @@ export default function Landing() {
                       Top Products
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      Coco fiber is a processed product from coconut coir which
-                      is processed to form long fibers. Cocopeat is a planting
-                      medium that has a fairly high water absorption capacity
-                      and can store more water than is stored in the soil. Coco
-                      fiber is also often used for mattresses. car seats,
-                      brooms, mats and etc.
+                      Coco peat blocks are made from processed coconut fiber in
+                      the form of fertilizer which is then pressed into cubes or
+                      blocks. Cocopeat blocks are often used as a soil
+                      substitute planting medium. One of the benefits of using
+                      Cocopeat as a hydroponic growing medium is that it can
+                      hold water and has quite a lot of chemical elements.
                     </p>
                   </blockquote>
                 </div>
@@ -216,9 +206,6 @@ export default function Landing() {
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blueGray-200">
-                    <i className="fas fa-rocket text-xl"></i>
-                  </div>
                   <h3 className="text-3xl font-semibold">Products</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                     Coco fiber is a processed product from coconut coir which is
