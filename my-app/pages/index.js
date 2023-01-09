@@ -27,7 +27,7 @@ export default function Landing() {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white font-semibold text-5xl">
+                  <h1 className="text-white font-semibold text-5xl sm:text-lg">
                     INDONESIA BEST SUPPLIER OF COCONUT PRODUCT
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
@@ -66,7 +66,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                      <i className="fas fa-award"></i>
+                      <i class="fa-regular fa-hands-holding-heart"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Integrity</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
@@ -84,7 +84,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-                      <i className="fas fa-retweet"></i>
+                      <i className="fas fa-handshake"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Trust</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
@@ -102,7 +102,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
-                      <i className="fas fa-fingerprint"></i>
+                      <i class="fa-solid fa-hands-holding-heart"></i>
                     </div>
                     <h6 className="text-xl font-semibold">Quality</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
